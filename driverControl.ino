@@ -62,9 +62,9 @@ uint32_t lastSensorCheck = 0;
 const uint32_t SENSOR_CHECK_INTERVAL = 5000;
 
 // WiFi Credentials
-const char* ssid = "DNACPR";
-const char* pass = "ege121212";
-const char* BLYNK_TOKEN = "k_Yyh2iZbyJ1fAzIKho7n3cMsCX24TZW";
+const char* ssid = "xxx";
+const char* pass = "xxx";
+const char* BLYNK_TOKEN = "xxx";
 
 void onBeatDetected() {
     if(xSemaphoreTake(xI2CMutex, pdMS_TO_TICKS(100))) {
